@@ -26,13 +26,13 @@ export const NavBar = ()=> {
                         </Nav.Item>
                     
                         <Nav.Item>
-                            <Nav.Link href="/products">
+                            <Nav.Link href="/about">
                                 Sobre
                             </Nav.Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link eventKey="link-2">
+                            <Nav.Link href="/contact">
                                 Contato
                             </Nav.Link>
                         </Nav.Item>

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Button, Container,  } from "react-bootstrap";
+import { Container , Button} from 'react-bootstrap';
 import { NavBar } from '../../components/Navbar/'
-
 import '../pagesStyles.css';
 
-export const Products = ()=> {
+
+export const About = ()=> {
     return (
         <>
             <NavBar />
             <Container className='container' fluid>
-                <h1>Products Page</h1>
+                <h1>About Page</h1>
                 <Button variant="primary">Learn more</Button>
       
             </Container>

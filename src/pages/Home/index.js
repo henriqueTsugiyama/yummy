@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container , Button} from 'react-bootstrap';
 import { NavBar } from '../../components/Navbar/'
-import './style.css';
+import '../pagesStyles.css';
 
 
 export const Home = ()=> {
